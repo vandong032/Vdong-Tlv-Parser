@@ -1,7 +1,7 @@
 [![maven](https://maven-badges.herokuapp.com/maven-central/com.payneteasy/ber-tlv/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.payneteasy/ber-tlv)
 
 
-BER-TLV parser and builder
+EMV parser and builder
 ==========================
 
 BerTlv is a java library for parsing and building BER TLV encoded data.
@@ -19,7 +19,7 @@ BerTlv is a java library for parsing and building BER TLV encoded data.
 
 ```xml
 <dependency>
-  <groupId>==</groupId>
+  <groupId></groupId>
   <artifactId>Vdong-Tlv</artifactId>
   <version>1.0-11</version>
 </dependency>
