@@ -12,11 +12,11 @@
     <artifactId>ber-tlv</artifactId>
     <version>1.0-12-SNAPSHOT</version>
 
-    <name>ber-tlv ${project.version}</name>
+    <name>Vdong-Tlv-Parser ${project.version}</name>
 
     <description>BER-TLV reader and writer</description>
 
-    <url>https://github.com/evsinev/ber-tlv</url>
+    <url>https://github.com/vandong032/Vdong-Tlv-Parser</url>
 
     <scm>
         <connection>scm:git:git@github.com:evsinev/ber-tlv.git</connection>
