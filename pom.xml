@@ -19,17 +19,17 @@
     <url>https://github.com/vandong032/Vdong-Tlv-Parser</url>
 
     <scm>
-        <connection>scm:git:git@github.com:evsinev/ber-tlv.git</connection>
-        <developerConnection>scm:git:git@github.com:evsinev/ber-tlv.git</developerConnection>
-        <url>https://github.com/evsinev/ber-tlv</url>
+        <connection>scm:git:git@github.com:/vandong032/Vdong-Tlv-Parser.git</connection>
+        <developerConnection>scm:git:git@github.com:/vandong032/Vdong-Tlv-Parser.git</developerConnection>
+        <url>https://github.com/vandong032/Vdong-Tlv-Parser</url>
       <tag>HEAD</tag>
   </scm>
 
     <developers>
         <developer>
-            <id>esinev</id>
-            <name>Evgeniy Sinev</name>
-            <email>esinev@gmail.com</email>
+            <id>vandong032</id>
+            <name>Dinh Van Dong</name>
+            <email>vandong032@gmail.com</email>
         </developer>
     </developers>
 
