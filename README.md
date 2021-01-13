@@ -19,7 +19,7 @@ BerTlv is a java library for parsing and building BER TLV encoded data.
 
 ```xml
 <dependency>
-  <groupId></groupId>
+  <groupId>io.github.vandong032</groupId>
   <artifactId>Vdong-Tlv</artifactId>
   <version>1.0-11</version>
 </dependency>
@@ -28,7 +28,7 @@ BerTlv is a java library for parsing and building BER TLV encoded data.
 ### Gradle
 
 ```groovy
-implementation 'com.payneteasy:ber-tlv:1.0-11'
+
 ```
 
 How to parse
