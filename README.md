@@ -1,7 +1,7 @@
 [![maven](https://maven-badges.herokuapp.com/maven-central/com.payneteasy/ber-tlv/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.payneteasy/ber-tlv)
 
 
-EMV parser and builder
+EMV-TLV parser and builder
 ==========================
 
 BerTlv is a java library for parsing and building BER TLV encoded data.
@@ -19,7 +19,7 @@ BerTlv is a java library for parsing and building BER TLV encoded data.
 
 ```xml
 <dependency>
-  <groupId>io.github.vandong032</groupId>
+  <groupId>com.vandong</groupId>
   <artifactId>Vdong-Tlv</artifactId>
   <version>1.0-11</version>
 </dependency>
@@ -28,7 +28,7 @@ BerTlv is a java library for parsing and building BER TLV encoded data.
 ### Gradle
 
 ```groovy
-
+implementation 'com.vandong:Vdong-Tlv:1.0-11'
 ```
 
 How to parse
@@ -37,17 +37,17 @@ How to parse
 ```java
 byte[] bytes = HexUtil.parseHex("50045649534157131000023100000033D44122011003400000481F");
 
-BerTlvParser parser = new BerTlvParser(LOG);
-BerTlvs tlvs = parser.parse(bytes, 0, bytes.length);
+EmvTlvParser parser = new EmvTlvParser(LOG);
+Tlvs tlvs = parser.parse(bytes, 0, bytes.length);
   
-BerTlvLogger.log("    ", tlvs, LOG);
+EmvTlvLogger.log("    ", tlvs, LOG);
 ```
 
 How to build
 ------------
 
 ```java
-byte[] bytes =  new BerTlvBuilder()
+byte[] bytes =  new EmvTlvBuilder()
                 .addHex(new BerTag(0x50), "56495341")
                 .addHex(new BerTag(0x57), "1000023100000033D44122011003400000481F")
                 .buildArray();
